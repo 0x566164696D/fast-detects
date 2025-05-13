@@ -43,7 +43,6 @@ generate:
     # - "\"|%PROGRAMFILES:~10,-5%set%PROGRAMFILES:~10,-5%/a%PROGRAMFILES:~10,-5%CALC_MARKER\""
 
   - method:
-    - postfix
     - replace
 
 detect:

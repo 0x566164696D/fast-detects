@@ -59,7 +59,6 @@ generate:
     #- "$(ping$IFS$9-c1$IFS$9DNS_MARKER)"
 
   - method:
-    - postfix
     - replace
 
 detect:

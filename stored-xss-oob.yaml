@@ -3,7 +3,7 @@ generate:
     - "><img src=\"http://DNS_MARKER\"><"
     - "><script src=\"http://DNS_MARKER\"></script>"
   - method:
-    - postfix
+    - replace
 detect:
   - delayed_oob:
     - dns
